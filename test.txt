@@ -1,0 +1,16 @@
+1...select *from city table where population>10000
+2...select american cities from city table where population>1200000 and americancode=usa
+3...select city entries-distinct ciyt entries from city table where city enteries between distinct city entries
+4....select first_name,last_name,gender from patients where gender='M';
+5....select first_name,last_name from patients where allergies is null;
+6...select first_name from patients where first_name like'c%'
+7....select first_name,last_name from patients where weight between 100 and 120
+10....select first_name, last_name,allergies from patients where allergies is not null and city='hamilton' 
+11....select first_name,last_name,birth_date from patients where height>160 and weight>70
+12.....select count('total no of addmissions')from admissions where patient_id=13
+13.....select count('total number of addmissions')from admissions 
+23....select* from patients where first_name like '__r%'
+22....select max('as largest weight'),min('as smallest weight')from patients where last_name like 'Morni';
+15.....select city from patients where province_id='Ns'
+21....select* from patients where patient_id=192 
+=
