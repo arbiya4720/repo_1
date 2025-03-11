@@ -13,4 +13,4 @@
 22....select max('as largest weight'),min('as smallest weight')from patients where last_name like 'Morni';
 15.....select city from patients where province_id='Ns'
 21....select* from patients where patient_id=192 
-=
+==================================================
